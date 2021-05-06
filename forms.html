@@ -49,7 +49,7 @@
       <button>Search Youtube</button>
     </form> -->
 
-    <h2>Inputs</h2>
+    <h2>Inputs (checkbox)</h2>
     <form action="/hockey">
       <input type="checkbox" name="agree_tos" id="agree" checked />
       <label for="agree">I agree</label>
@@ -64,16 +64,13 @@
         <button>Submit</button>
       </p>
     </form>
-    <label for="team-select">Choose a Team:</label>
-    <select>Please Select a Team</select>
-    <option name="CO" id="">
-      Colorado Avalanche
-    </option>
-    <option name="MO" id="">
-      Montreal Canadiens
-    </option>
-    <select name="MM" id="">
-      Manitoba Moose
-    </option>
+    <h2>Select</h2>
+    <label for="team select">Choose a Team</label>
+    <select name="teams" id="team-select">
+      <option value="">--Please Select a team--</option>
+      <option value="Colorado">Colorado Avalanche</option>
+      <option value="Montreal">Montreal Canadiens</option>
+      <option value="MM">Manitoba Moose</option>
+    </select>
   </body>
 </html>
