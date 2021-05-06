@@ -27,7 +27,14 @@
       </p>
       <p>
         <label for="number">Enter Number</label>
-        <input type="number" for="number" placeholder="Enter Number" />
+        <input
+          type="number"
+          for="number"
+          placeholder="Enter Number"
+          min="0"
+          max="100"
+          step="2"
+        />
       </p>
       <button type="submit" variant="primary">SUBMIT</button>
       <button type="button">CANCEL</button>
@@ -72,5 +79,22 @@
       <option value="Montreal">Montreal Canadiens</option>
       <option value="MM">Manitoba Moose</option>
     </select>
+    <p>
+      <label for="loud">Level of yelling</label>
+      <input
+        type="range"
+        id="loud"
+        min="0"
+        max="100"
+        name="level of yelling"
+        step="2"
+      />
+      <p>
+        <label for="requests" > Any Special Requests?  </label>
+        <br>
+          <textarea id="requests" rows="10" cols="40" name="requests?" placeholder="Type Something Here"></textarea>
+      </p>
+      <button type="submit">Submit</button>
+    </p>
   </body>
 </html>
