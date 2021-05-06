@@ -1,6 +1,21 @@
+h1 {
+  text-align: center;
+  font-weight: 700;
+  text-decoration: black underline double;
+}
+
 h2 {
   color: blue;
-  background-color: rebeccapurple;
+}
+h3 {
+}
+h4 {
+}
+h5 {
+  font-weight: bold;
+}
+h6 {
+  font-weight: 700;
 }
 button {
   color: magenta;
@@ -8,6 +23,5 @@ button {
 }
 
 p {
-  color: aqua;
-  background: orange;
+  line-height: 2;
 }
