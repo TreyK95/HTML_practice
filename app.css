@@ -30,3 +30,21 @@ button {
 p {
   line-height: 2;
 }
+
+#one {
+  background-color: cornflowerblue;
+  border-width: 3px;
+  border-color: crimson;
+  border-style: solid;
+  /* box-sizing: border-box; */
+  border-style: dotted;
+}
+
+#two {
+  background-color: crimson;
+  border-width: 5px;
+  border-color: black;
+  border-style: solid;
+  border-style: double;
+  border-left-color: cyan;
+}
