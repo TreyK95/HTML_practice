@@ -42,9 +42,7 @@ p {
 
 #two {
   background-color: crimson;
-  border-width: 5px;
-  border-color: black;
-  border-style: solid;
-  border-style: double;
-  border-left-color: cyan;
+  border: 8px dashed green;
+  border-left-style: dotted;
+  border-radius: 30px;
 }
