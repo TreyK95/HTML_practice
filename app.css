@@ -25,6 +25,8 @@ h6 {
 button {
   color: magenta;
   background-color: black;
+  margin: 8px;
+  padding: 10px;
 }
 
 p {
