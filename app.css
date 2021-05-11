@@ -49,3 +49,16 @@ p {
   border-left-style: dotted;
   border-radius: 30px;
 }
+
+section {
+  width: 500px;
+  height: 500px;
+  background-color: magenta;
+}
+
+#rgba {
+  width: 50%;
+  height: 50%;
+  background-color: magenta;
+  opacity: 0.5;
+}
