@@ -1,14 +1,14 @@
 h1 {
   text-align: center;
   font-weight: 700;
-  text-decoration: black underline double;
+  text-decoration: #8b2942 underline double;
   font-family: Verdana;
   text-transform: uppercase;
   letter-spacing: 20px;
 }
 
 h2 {
-  color: blue;
+  color: #005488;
   font-family: futura;
 }
 h3 {
